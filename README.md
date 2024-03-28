@@ -1,1 +1,1 @@
-# DP-ID : Interleaving and Denoising for Improving the Quality of DNA Storage Images
+# DP-ID : Interleaving and Denoising to Improve the Quality of DNA Storage Images
