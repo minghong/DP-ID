@@ -1,7 +1,7 @@
 import random
 import numpy as np
 
-
+#mutation_dna.txt is simulate DNA storage errors result 
 
 out=open("D:\\process.txt","w")
 file=open("D:\\mutation_dna.txt")
