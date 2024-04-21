@@ -1,6 +1,6 @@
 ## DP-ID : Interleaving and Denoising to Improve the Quality of DNA Storage Images
 
-#The codes are located in the **code** folder
+# The codes are located in the **code** folder
 Step 1 : run **sanke_like.py** to obtain the matriax of image
 
 step 2 : run **dp-image_compression.cpp** to achieve dp-compress
