@@ -20,16 +20,16 @@ def split_string_by_length(string, length):
         result.append(string[i:i+length])
     return result
 
-#压缩：个数+比特信息
-with open("D:\\1.txt", 'r') as file:   #得到图像弓形数组向量
+#compress
+with open("D:\\1.txt", 'r') as file: 
     for line in file:
         line = line.strip()
         data = line.split(" ")
 
-#编码
+#dp-encode 01 bits
 count=0
 str=""
-with open("D:\\result2.txt", 'r') as file:  #根据动态规划结果将图像向量转为01比特
+with open("D:\\result2.txt", 'r') as file:  
     for line in file:
         line = line.strip()
         tmp = line.split(" ")
@@ -41,6 +41,8 @@ with open("D:\\result2.txt", 'r') as file:  #根据动态规划结果将图像�
         count+=int(tmp[0])
 
 dna=dna_encode(str)
+
+dna+="A"*(150-(len(dna)-len(dna)//150*150))  #adjust last sequence to 150 nt
 numbers = list(range(0, len(dna)))
 random.seed(10)
 random.shuffle(numbers)
@@ -53,6 +55,5 @@ out=open("D:\\direct_2.txt",'w')
 for k in stl:
     out.write(k+"\n")
 out.close()
-
 
 
