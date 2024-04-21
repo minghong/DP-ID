@@ -60,7 +60,7 @@ void Output(int s[], int l[], int b[], int n)
         l[j] = l[s[j]];
         b[j] = b[s[j]];
     }
-    ofstream outfile("D:\\result.txt");
+    ofstream outfile("D:\\result2.txt");
     for(int j=1; j<=m; j++)
 
         outfile << l[j] << " "<<b[j]<<endl;
