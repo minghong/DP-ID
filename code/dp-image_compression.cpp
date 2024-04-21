@@ -1,6 +1,3 @@
-#include<iostream>
-#include<cmath>
-#include<stack>
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -109,8 +106,8 @@ int TraceBack(int n,int l[],int b[])
 void Out(int m,int min_len,int l[],int b[])
 {
     int i=0;
-    cout<<"最小长度："<<min_len<<endl;
-    cout<<"共分成："<<m<<"段"<<endl;
+    cout<<"total_length："<<min_len<<endl;
+    cout<<"total："<<m<<"segment"<<endl;
     ofstream outfile("D:\\result2.txt");
     for(int j=1; j<=m; j++)
     {
