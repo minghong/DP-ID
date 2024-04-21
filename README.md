@@ -13,3 +13,6 @@ step 4 ：simlate DNA storage errors
 step 5 : run **correct_length.py** to correct DNA sequence to 150nt 
 
 step 6 ：run **decode.py** to convert bases to the image
+
+
+If you have any questions, please contact me.
