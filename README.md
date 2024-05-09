@@ -1,4 +1,4 @@
-## DP-ID : Interleaving and Denoising to Improve the Quality of DNA Storage Images
+## DP-ID 
 
 The codes are located in the **code** folder, lena.bmp(256*256) is an example.
 
