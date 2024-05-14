@@ -16,3 +16,6 @@ step 6 ：run **decode.py** to convert bases to the image
 
 
 If you have any questions, please contact me.
+
+## Citation
+A related paper is submitted to the SCI journal.
