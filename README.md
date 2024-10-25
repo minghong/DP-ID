@@ -15,7 +15,7 @@ step 5 : run **correct_length.py** to correct DNA sequence to 150nt
 step 6 ：run **decode.py** to convert bases to the image
 
 ## Citation
-A related paper is submitted to the SCI journal.
+A related paper has been accepted for publication in XXX.
 
 ## Contact
 If you have any question, please contact us.
