@@ -52,7 +52,7 @@ s=0
 d=0
 ins=0
 error=0.01
-file=open("D:\\direct.txt")
+file=open("D:\\direct_2.txt")
 new=open('D:\\mutation_dna.txt',"w")
 for line in file.readlines():
     new.write(mutate(line.split("\n")[0],error)+"\n")
