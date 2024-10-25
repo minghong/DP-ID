@@ -1,5 +1,6 @@
 ## DP-ID 
-If you in Windows system, you can run DP-ID it step by step.
+# If you in Windows system, you can run DP-ID step by step.
+
 The codes are located in the **code** folder, lena.bmp(256*256) is an example.
 
 Step 1 : run **sanke_like.py** to obtain the matriax of image
