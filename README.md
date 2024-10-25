@@ -4,8 +4,8 @@ If you in Windows system, you can run DP-ID step by step.
 
 The codes are located in the **code** folder, lena.bmp(256*256) is an example
 
-Step 1 : run **sanke_like.py** to obtain the matriax of image
-
+Step 1 : run **sanke_like.py** to obtain the image matrix
+ 
 step 2 : run **dp-image_compression.cpp** to achieve dp-compress
 
 step 3 ：run **encode.py** to convert the image matrix to bases
@@ -26,4 +26,4 @@ Step : run **dp_compress_inter.py** to obtain the results
 A related paper has been accepted for publication in XXX.
 
 ## Contact
-If you have any questions, please contact corresponding author(bik@seu.edu.cn) and first author(xuqi@seu.edu.cn).
+If you have any questions, please contact corresponding author (bik@seu.edu.cn) and first author (xuqi@seu.edu.cn).
