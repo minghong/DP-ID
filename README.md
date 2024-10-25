@@ -1,5 +1,6 @@
 ## DP-ID 
-# If you in Windows system, you can run DP-ID step by step.
+# Windows
+If you in Windows system, you can run DP-ID step by step.
 
 The codes are located in the **code** folder, lena.bmp(256*256) is an example.
 
@@ -14,7 +15,7 @@ step 4 ：simulate DNA storage errors. If you have simulator, please use it; oth
 step 5 : run **correct_length.py** to correct DNA sequence to 150nt 
 
 step 6 ：run **decode.py** to convert bases to the image
-
+# Linux
 ## Citation
 A related paper has been accepted for publication in XXX.
 
