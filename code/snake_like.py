@@ -16,7 +16,7 @@ def image_to_bitstream(image_path):
     
     return img_arr
 
-bitstream=image_to_bitstream("D:\\lena1.bmp")
+bitstream=image_to_bitstream("D:\\lena.bmp")
 out=open("D:\\1.txt","w")
 
 for i in range(len(bitstream)):
