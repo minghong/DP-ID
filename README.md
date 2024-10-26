@@ -2,7 +2,7 @@
 # Windows
 If you in Windows system, you can run DP-ID step by step.
 
-The codes are located in the **code** folder, lena.bmp (256*256) is an example
+The codes are located in the **code** folder, lena.bmp (256*256) is an example.The input image should be a 256*256 grayscale image. If it is other size or color image, please modify the corresponding parameters
 
 Step 1 : run **sanke_like.py** to obtain the image matrix
  
@@ -18,7 +18,7 @@ step 6 ：run **decode.py** to convert bases to the image
 # Linux
 If you in Linux system, you can run DP-ID in one step.
 
-The codes are located in the **linux** folder, lena.bmp (256*256) is an example
+The codes are located in the **linux** folder, lena.bmp (256*256) is an example. The input image should be a 256*256 grayscale image. If it is other size or color image, please modify the corresponding parameters
 
 Step : run **dp_compress_inter.py** to obtain the results
 
