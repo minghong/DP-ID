@@ -7,10 +7,10 @@ def mutate(string,error):
     for index, char in enumerate(dna):
         if (random.random() <= error):
             h=random.random()
-            if(h<0.33):
+            if(h<=1/3):
                 a+=1
                 dna[index]=sub(dna[index])
-            elif(h<0.66):
+            elif(h<=2/3):
                 b+=1
                 dna[index]=""
             else:
