@@ -27,10 +27,10 @@ def mutate(string,rate):
     for index, char in enumerate(dna):
         if (random.random() <= rate):
             h=random.random()
-            if(h<=0.33):
+            if(h<=1/3):
                 subi+=1
                 dna[index]=sub(dna[index])
-            elif(h<=0.66):
+            elif(h<=2/3):
                 dele+=1
                 dna[index]=""
             else:
