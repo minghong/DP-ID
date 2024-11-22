@@ -26,4 +26,4 @@ Step : run **dp_compress_inter.py** to obtain the results
 A related paper has been accepted for publication in XXX.
 
 ## Contact
-If you have any questions, please contact us.
+If you have any questions, please contact  corresponding author (bik@seu.edu.cn) and first author (xuqi@seu.edu.cn).
