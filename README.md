@@ -1,4 +1,4 @@
-## DP-ID 
+## DP-ID: Interleaving and Denoising to Improve the Quality of DNA Storage Image
 # Windows
 If you in Windows system, you can run DP-ID step by step.
 
