@@ -23,7 +23,6 @@ The codes are located in the **linux** folder, lena.bmp (256\*256) is an example
 Step : run **dp_compress_inter.py** to obtain the results
 
 ## Citation
-A related paper has been accepted for publication in XXX.
-
+Xu, Q., Ma, Y., Lu, Z. Bi, K. DP-ID: Interleaving and Denoising to Improve the Quality of DNA Storage Image. Interdiscip Sci Comput Life Sci (2024). https://doi.org/10.1007/s12539-024-00671-6
 ## Contact
 If you have any questions, please contact  corresponding author (bik@seu.edu.cn) and first author (xuqi@seu.edu.cn).
